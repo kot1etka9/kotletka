@@ -1,0 +1,28 @@
+From 03f9ae86df4a2d0fc48586f02608ce63dfee661e Mon Sep 17 00:00:00 2001
+From: Juliana <yuimakarova@stud.etu.ru>
+Date: Fri, 13 Dec 2024 14:30:31 +0300
+Subject: Revert "Удалены первые строки кода"
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+This reverts commit 1095706751bec4d3e14d3e5b64046a65d2c021e7.
+
+diff --git a/2.lab/2.lab.cpp b/2.lab/2.lab.cpp
+index d950b1a..a6c180a 100644
+--- a/2.lab/2.lab.cpp
++++ b/2.lab/2.lab.cpp
+@@ -1,4 +1,12 @@
+-﻿#include <iostream>
++﻿/*
++Задание: Найти y по вводимому х
++Ограничения: [-10^10 ; 10^10]
++Автор: Макарова Юлиана Игоревна, гр. 4342
++Версия: 1.1
++Даты: начало 22.09.24   конец 24.09.24
++*/
++
++#include <iostream>
+ #include <iomanip>
+ 
+ int main()
